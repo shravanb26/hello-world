@@ -1,2 +1,3 @@
-# hello-world
-initial step
+# maven-project
+
+Simple Maven Project
