@@ -5,4 +5,4 @@ From tomcat:8
 MAINTAINER "me@gmail.com" 
 #COPY ./webapp.war /usr/local/tomcat/webapps
 #COPY webapp.war /usr/local/tomcat/webapps
-COPY /*.war /usr/local/tomcat/webapps
+COPY target/*.war /usr/local/tomcat/webapps
