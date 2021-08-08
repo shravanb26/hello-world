@@ -3,4 +3,4 @@ From tomcat:8
 
 # Maintainer 
 MAINTAINER "me@gmail.com" 
-COPY firstjob/webapp/target/webapp.war /usr/local/tomcat/webapps
+COPY webapp.war /usr/local/tomcat/webapps
