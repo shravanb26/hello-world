@@ -3,7 +3,7 @@ From tomcat:8
 
 # Maintainer 
 MAINTAINER "me@gmail.com" 
-WORKDIR /var/lib/jenkins/workspace/
+WORKDIR /var/lib/jenkins/workspace/firstjob/webapp/
 #COPY /webapp.war /usr/local/tomcat/webapps
 COPY target/*.war /usr/local/tomcat/webapps
 #COPY target/*.war /usr/local/tomcat/webapps
